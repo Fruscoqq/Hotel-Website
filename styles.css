@@ -222,7 +222,7 @@ footer {
     display: flex;
     flex-direction: column;
   }
- .navbar ul li {
+  .navbar ul li {
     padding: 1rem 0;
   }
   .navbar ul li a {
@@ -237,5 +237,18 @@ footer {
 
   .hotel-history .box-1 {
     display: none;
+  }
+  .showcase a {
+    margin-top: 1rem;
+    padding: 1rem;
+    font-size: 1.1rem;
+    color: #f3f3f3;
+    background-color: #3d3c3f;
+  }
+  .showcase h1 {
+    padding: 0;
+    font-size: 3.5rem;
+    color: #f3f3f3;
+    font-weight: bold;
   }
 }
