@@ -205,6 +205,99 @@ body {
   padding-bottom: 2rem;
 }
 
+/* About Page*/
+
+  /* About Section*/
+
+  .about-container{
+    display: flex;
+    padding: 1rem;
+    background-color: #e8ecf2
+  }
+
+  .about-container > div{
+    padding: 1rem;
+  }
+
+  .about-container .box-1{
+   flex: 2;
+   text-align: left;
+  }
+
+  .about-container .box-1 h1{
+    padding-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: 900;
+    text-shadow: 0px 1px, 1px 0px, 1px 1px;
+  }
+
+  .about-container .box-1 p{
+    line-height: 2rem;
+    color: #3d3c3f;
+  }
+
+  .about-container .box-2{
+    background: url('https://images.pexels.com/photos/347151/pexels-photo-347151.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-position: center;
+    border-radius: 3%;
+    background-size: cover;
+    flex:1;
+    align-items: center;
+   
+    
+  }
+
+ /* Guest */
+
+ .guest{
+   background:linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg?auto=compress&cs=tinysrgb&h=650&w=940');
+   background-size: cover;
+   background-position: center;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   
+ }
+
+ .guest .guest-container{
+   display: flex;
+   flex-direction: column;
+   width: 80%;
+   
+ }
+
+ .guest .guest-container > div{
+   display: flex;
+   line-height: 2rem;
+   padding: 1rem;
+   background-color: #f7b67f;
+   margin: 2rem;
+   border-radius: 1%;
+   
+ }
+
+
+ .guest h1{
+   text-align: center;
+   color: #f3f3f3;
+   margin-top:2rem;
+   font-size: 2.4rem;
+ }
+
+ .guest .guest-container > div p{
+   margin: 0 1rem;
+   color: #3d3c3f;
+ }
+
+  img{
+    width: 14%;
+    height: 100%;
+    border-radius: 50%;
+  }
+
+  
+
 footer {
   padding: 3rem;
   text-align: center;
@@ -251,4 +344,7 @@ footer {
     color: #f3f3f3;
     font-weight: bold;
   }
+  .about-container .box-2{
+      display: none;
+    }
 }
