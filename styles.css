@@ -38,12 +38,13 @@ body {
 .navbar ul li a {
   padding: 1.6rem 1rem;
   color: #f3f3f3;
-  transition: all 0.2s ease-in;
+  background: #2e2d2e;
 }
 
 .navbar ul li a:hover {
   background: #3d3c3f;
   color: #f7b67f;
+  transition: all 0.2s ease-in-out;
 }
 
 .showcase {
@@ -82,13 +83,13 @@ body {
   padding: 1rem;
   font-size: 1.4rem;
   color: #f3f3f3;
-  background-color: #3d3c3f;
-  transition: all 0.2s ease-in;
+  background: #3d3c3f;
 }
 
 .showcase a:hover {
-  background-color: #f7b67f;
+  background: #f7b67f;
   color: #3d3c3f;
+  transition: all 0.2s ease-in;
 }
 
 .hotel-history {
@@ -132,11 +133,11 @@ body {
   color: black;
   padding: 1rem;
   margin-bottom: 1rem;
-  transition: all 0.2s ease-in;
 }
 
 .hotel-history .box-2 a:hover {
   background: #f7b680;
+  transition: all 0.2s ease-in;
 }
 
 .offers-container {
